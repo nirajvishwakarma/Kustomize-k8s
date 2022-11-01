@@ -12,8 +12,8 @@ step3: kustomize -h
 
 # Deploy Application
 
-#Lets see if production values are being applied by running 
-$ kustomize build overlays/prod
+#Lets see if production values are being applied by running
+-> kustomize build overlays/prod
 
-#Once you have reviewed, apply your overlays to the cluster with 
-$ kubectl apply -k overlays/prod
+# Once you have reviewed, apply your overlays to the cluster with 
+-> kubectl apply -k overlays/prod
